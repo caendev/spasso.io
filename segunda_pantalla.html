@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Spasso</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<style>
+  .logo-container {
+    height: 100px;
+    /* Ajusta la altura deseada */
+  }
+
+  .logo-img {
+    max-width: 75%;
+    max-height: 75%;
+  }
+</style>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="d-flex justify-content-center align-items-center logo-container">
+        <img href="./index.html" class="logo-img" src="./assets/img/logo.png" alt="" a> <a href="./index.html"
+          class="logo">
+          <h1>Spasso<span>.</span></h1>
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div
+          class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Disfruta de un<br>Delicioso Coctel</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Explore nuestra amplia variedad de cócteles haciendo
+            clic en el botón y descubra un mundo de sabores.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="100">
+            <a href="#menu" class="btn-book-a-table">Menu</a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/Fondo.jpeg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Nuestro menu</h2>
+          <p>Consulta <span>nuestro Menu</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="row">
+            <div class="col text-center">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-tequila">
+                <h4>Tequila</h4>
+              </a>
+            </div>
+            <div class="col">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-ron">
+                <h4>Ron</h4>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-vodka">
+                <h4>Vodka</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-whisky">
+                <h4>Whisky</h4>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-ginebra">
+                <h4>Ginebra</h4>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-mezcal">
+                <h4>Mezcal</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-vino">
+                <h4>Cocteles con <br> vino</h4>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-aperitivos">
+                <h4>Aperitivos y digestivos</h4>
+              </a>
+            </div>
+          </div>
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-tequila">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Tequila</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Tequila/Margarirta.png" class="glightbox"><img
+                    src="assets/img/Tequila/Margarirta.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Margarita</h4>
+                <p class="ingredients">
+                  Tequila, licor de naranja, jarabe natural, jugo de limón.
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Tequila/Paloma.png" class="glightbox"><img src="assets/img/Tequila/Paloma.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Paloma</h4>
+                <p class="ingredients">
+                  Tequila, fresca de lata, jugo de limón.
+                </p>
+                <p class="price">
+                  $110
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End tequila Menu Content -->
+
+          <div class="tab-pane fade" id="menu-ron">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Ron</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ron/Daiquiri.png" class="glightbox"><img src="assets/img/Ron/Daiquiri.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Daiquiri</h4>
+                <p class="ingredients">
+                  Ron, Jugo de Limon,Jarabe Natural y Limon Fresco
+                </p>
+                <p class="price">
+                  $100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ron/Pina_colada.png" class="glightbox"><img src="assets/img/Ron/Pina_colada.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Piña colada</h4>
+                <p class="ingredients">
+                  Mix de piñada y ron
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ron/Mojito.png" class="glightbox"><img src="assets/img/Ron/Mojito.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Mojito</h4>
+                <p class="ingredients">
+                  Ron, Jarabe Natural, Jugo de Limon, Hierbabuena, Agua Mineral, Azucar Mascabado y Limon Fresco
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Americano.png" class="glightbox"><img src="assets/img/Aperitivos_y_digestivos/Americano.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Americano</h4>
+                <p class="ingredients">
+                  Ron, Jarabe Natural, Jugo de Limon, Hierbabuena, Agua Mineral, Azucar Mascabado y Limon Fresco
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End ron Menu Content -->
+
+          <div class="tab-pane fade" id="menu-vodka">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Vodka</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Vodka/Cosmopolitan.png" class="glightbox"><img
+                    src="assets/img/Vodka/Cosmopolitan.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Cosmopolitan</h4>
+                <p class="ingredients">
+                  Vod Smirnoff, Jugo Arandanos, Liq San Marino Triple Sco, Jugo de Limon y Naranja Valenciana
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Vodka/Espresso_martini.png" class="glightbox"><img
+                    src="assets/img/Vodka/Espresso_martini.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Espresso Martini</h4>
+                <p class="ingredients">
+                  Vod Smirnoff, Liq Kahlua, Capsulas Nespresso y Jarabe Natural
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End vodka Menu Content -->
+
+          <div class="tab-pane fade" id="menu-ginebra">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Ginebra</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ginebra/Gin_tonic.png" class="glightbox"><img src="assets/img/Ginebra/Gin_tonic.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Gin tonic</h4>
+                <p class="ingredients">
+                  Ginebra, Agua Tónica Shweppesy Limon Fresco
+                </p>
+                <p class="price">
+                  $120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ginebra/Martini.png" class="glightbox"><img src="assets/img/Ginebra/Martini.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Martini</h4>
+                <p class="ingredients">
+                  Ginebra y aper Martini bianco
+                </p>
+                <p class="price">
+                  $150
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ginebra/Negroni.png" class="glightbox"><img src="assets/img/Ginebra/Negroni.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Negroni</h4>
+                <p class="ingredients">
+                  Ginebra, aperol campari, aperol cinzano y naranja
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Ginebra/Affumicato.png" class="glightbox"><img
+                    src="assets/img/Ginebra/Affumicato.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Affumicato</h4>
+                <p class="ingredients">
+                  Jugo de limón, jarabe de romero y ginebra
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End Ginebra Menu Content -->
+
+          <div class="tab-pane fade" id="menu-vino">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Cocteles con Vino</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Vino/Sangria.png" class="glightbox"><img src="assets/img/Vino/Sangria.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Sangria</h4>
+                <p class="ingredients">
+                  VTC Estefanya Cabernet, Agua Mineral Lata, Jugo de Limón y Jarabe Natural
+                </p>
+                <p class="price">
+                  $185
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Vino/Tinto_verano.png" class="glightbox"><img src="assets/img/Vino/Tinto_verano.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Tinto de verano</h4>
+                <p class="ingredients">
+                  VTC Estefanya Cabernet y Sprite
+                </p>
+                <p class="price">
+                  $185
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Vino/Clericot.png" class="glightbox"><img src="assets/img/Vino/Clericot.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Clericot</h4>
+                <p class="ingredients">
+                  VTC Estefanya Cabernet, jugo de Manzana.
+                </p>
+                <p class="price">
+                  $200
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End vino Menu Content -->
+
+          <div class="tab-pane fade" id="menu-mezcal">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Mezcal</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Mezcal/Verdastro.png" class="glightbox"><img src="assets/img/Mezcal/Verdastro.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Verdastro</h4>
+                <p class="ingredients">
+                  Mezcal, licor de melón, kiwi fresco, jugo de limón, jarabe natural, agua mineral
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Mezcal/Mezcalita.png" class="glightbox"><img src="assets/img/Mezcal/Mezcalita.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Mezcalita</h4>
+                <p class="ingredients">
+                  Mezcal, licor de naranja, jugo de limón, jarabe natural
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End mezcal Menu Content -->
+
+          <div class="tab-pane fade" id="menu-aperitivos">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Aperitivos y Digestivos</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Mimosa.png" class="glightbox"><img src="assets/img/Aperitivos_y_digestivos/Mimosa.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Mimosa</h4>
+                <p class="ingredients">
+                  VE Cinzano ProSpritz y Jugo Naranja
+                </p>
+                <p class="price">
+                  $180
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Aperol mojito.png" class="glightbox"><img
+                    src="assets/img/Aperitivos_y_Digestivos/Aperol mojito.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aperol mojito</h4>
+                <p class="ingredients">
+                  Aperol, VE Cinzano ProSpritz, Hierbabuena, Jarabe Natural, Jugo de Limon
+                </p>
+                <p class="price">
+                  $185
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Aperol spritz.png" class="glightbox"><img
+                    src="assets/img/Aperitivos_y_Digestivos/Aperol spritz.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aperol spritz</h4>
+                <p class="ingredients">
+                  Aper Aperol, VE Cinzano ProSpritz y Naranja Valenciana
+                </p>
+                <p class="price">
+                  $185
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Carajillo.png" class="glightbox"><img
+                    src="assets/img/Aperitivos_y_Digestivos/Carajillo.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Carajillo</h4>
+                <p class="ingredients">
+                  Licor 43, espresso de café
+                </p>
+                <p class="price">
+                  $185
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Aperitivos_y_Digestivos/Tiramisu.png" class="glightbox"><img
+                    src="assets/img/Aperitivos_y_Digestivos/Tiramisu.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Tiramisu</h4>
+                <p class="ingredients">
+                  Liq Amaretto Conti, Liq Kahlua, Crema Cacao Bco, Capsulas Nespresso, Leche Carnation y Jarabe Natural
+                </p>
+                <p class="price">
+                  $190
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End aperitivos Menu Content -->
+
+          <div class="tab-pane fade" id="menu-whisky">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Whisky</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Whisky/Manhatan.png" class="glightbox"><img src="assets/img/Whisky/Manhatan.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Manhatan</h4>
+                <p class="ingredients">
+                  Whsky, cinzano rojo, amargo de angostura y naranja
+                </p>
+                <p class="price">
+                  $130
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/Whisky/Old_fashioned.png" class="glightbox"><img
+                    src="assets/img/Whisky/Old_fashioned.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Old fashioned </h4>
+                <p class="ingredients">
+                  Whisky, amargo de angostura, azúcar y naranja
+                </p>
+                <p class="price">
+                  $120
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End aperitivos Menu Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contacto</h2>
+          <p>¿Necesitas ayuda? <span>Buscanos en</span></p>
+        </div>
+
+        <div class="mb-3">
+          <!-- <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>  -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1795630671163!2d-89.62224042567875!3d20.985438089266907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715a0dfdf995%3A0xcc760c3437128e06!2sHyatt%20Regency%20Merida!5e0!3m2!1ses!2smx!4v1692176966904!5m2!1ses!2smx"
+            width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Nuestra dirección</h3>
+                <p>Av. Colón 344, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc.</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Llamanos</h3>
+                <p>+52 999 942 1234</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Horario de apertura</h3>
+                <div><strong>Mon-Sat:</strong> 17PM - 24PM;
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Dirección</h4>
+            <p>
+              Av. Colón 344 <br>
+              Zona Paseo Montejo <br>
+              Centro, 97000 Mérida, Yuc<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservaciones</h4>
+            <p>
+              <strong>Telefono:</strong> +52 999 942 1234<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Horario de apertura</h4>
+            <p>
+              <strong>Mon-Sat: 17PM</strong> - 24PM<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Siguenos en</h4>
+          <div class="social-links d-flex">
+            <a href="https://twitter.com/Hyatt_merida" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/HyattRegencyMerida class=" facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/hyattregencymerida/" class="instagram"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/hyatt" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@hyattregencymerida9681" class="youtube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
